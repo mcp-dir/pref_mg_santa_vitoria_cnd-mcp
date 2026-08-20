@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_mg_santa_vitoria_cnd-mcp",
+  "title": "Prefeitura MG Santa Vitória: Certidão Negativa de Débitos",
+  "description": "Prefeitura MG Santa Vitória: Clearance Certificate (Debts), official-source lookup. Platform-hosted,",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_mg_santa_vitoria_cnd-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_mg_santa_vitoria_cnd"
+    }
+  ]
+}
